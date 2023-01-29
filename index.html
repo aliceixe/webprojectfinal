@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&family=IBM+Plex+Sans+Hebrew:wght@500;600&family=Playfair+Display:ital,wght@0,700;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1/scss/bootstrap.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <style>
+      .container {
+        margin-top: 8%;
+      }
+
+      .inner {
+        overflow: hidden;
+      }
+
+      .inner img {
+        transition: all 1.5s ease;
+      }
+
+      .inner:hover img {
+        transform: scale(1.5);
+      }
+
+      
+      .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+     height: 50-vh;
+     overflow: hidden;
+      }
+     .carousel-item {
+    object-fit: cover;
+    object-position: center;
+     height: 20%;
+     overflow: hidden;
+     width: 100%;
+
+    
+ }
+
+.cat-title {
+    text-shadow: none;
+}
+      center block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 80%;
+      }
+      
+      .card-text{
+        text-align: center;
+       
+      }
+      
+      
+      .card-title{
+        text-align: center;
+      }
+
+      p {
+        font-size: 20px;
+        
+      }
+      .img2{
+        display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 50%;
+      }
+   
+      
+   
+    </style>
+    <title>web project</title>
+  
+  </head>
+  <body dir="rtl">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow-sm p-3 mb-5 bg-body-tertiary rounded bg-primary"
+    >
+      <div class="container-fluid bg-primary">
+        <a class="navbar-brand" href="file:///C:/Projects/webproject/index.html">
+          <img
+            src="https://www.holon.muni.il/SiteCollectionImages/logo.png"
+            alt="Logo"
+            width="150"
+            height="150"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./index.html"
+                >ראשי</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./about.html"
+                >מידע נוסף</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./Media.html"
+              >
+                מדייה</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./FAQ.html"
+                >שאלות תשובות</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./contect.html"
+                >יצירת קשר</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="4"
+          aria-label="Slide 5"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1582100137586-0e30a2fffbb2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG1hcmRpJTIwZ3JhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100"
+            alt="carnival"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              style="
+                font-family: 'Heebo', sans-serif;
+                font-family: 'IBM Plex Sans Hebrew', sans-serif;
+              "
+            >
+              פורסם ב-19 בפברואר 2020
+            </h5>
+            <p>Morelos, Cuernavaca, Mor., México.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1610746799307-e5b7872b6537?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFyZGklMjBncmF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+            class="d-block w-100"
+            alt="carnival."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              style="
+                font-family: 'Heebo', sans-serif;
+                font-family: 'IBM Plex Sans Hebrew', sans-serif;
+              "
+            >
+              טקסס, ארה"ב
+            </h5>
+            <p>אישה לבושה בתלבושת מארדי גרא עם מטריה מעוטרת בפסטיבל.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1562246043-e95940518cc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fG1hcmRpJTIwZ3JhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            class="d-block w-100"
+            alt="carnival"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              style="
+                font-family: 'Heebo', sans-serif;
+                font-family: 'IBM Plex Sans Hebrew', sans-serif;
+              "
+            >
+              פורסם ב-4 ביולי 2019
+            </h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1603043147971-564df57e2915?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fG1hcmRpJTIwZ3JhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            class="d-block w-100"
+            alt="carnival"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              style="
+                font-family: 'Heebo', sans-serif;
+                font-family: 'IBM Plex Sans Hebrew', sans-serif;
+              "
+            >
+              פורסם ב-18 באוקטובר 2020.
+            </h5>
+            <p>Venice, Metropolitan City of Venice, Italy</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1622278934772-1e6fece9e951?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG1hcmRpJTIwZ3JhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+            class="d-block w-100"
+            alt="carnival"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              style="
+                font-family: 'Heebo', sans-serif;
+                font-family: 'IBM Plex Sans Hebrew', sans-serif;
+              "
+            >
+              פורסם ב-22 באוגוסט 2021
+            </h5>
+            <p>Mumbai, Maharashtra, India.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br /><br />
+    <h2
+      style="
+        text-align: center;
+        background-color: #f2cc0f;
+        font-family: 'Playfair Display', serif;
+      "
+    >
+      עדלאידע
+    </h2>
+    <p
+      style="
+        font-family: 'Heebo', sans-serif;
+        font-family: 'IBM Plex Sans Hebrew', sans-serif;
+        text-align: center;
+      "
+    >
+      תהלוכת העדלאידע הראשונה נערכה בתל אביב הקטנה כבר בשנה השלישית להיווסדה של
+      העיר, בפורים 1912, ביוזמתו של אברהם אלדמע הצעיר, מורה לציור ומלאכה
+      בגימנסיה הרצליה. התהלוכה הססגונית, ובה תלמידים ומבוגרים מחופשים ברוח החג,
+      יצאה מבניין הגימנסיה וצעדה לאורך רחוב הרצל עד מסילת הברזל. עקב הצלחתה
+      החליט ראש מועצת העיר מאיר דיזנגוף שהיא תתקיים גם בשנה שלאחר מכן, במימון
+      המועצה. במלחמת העולם הראשונה הופסקה העדליאדע, והיא התחדשה לאחריה.
+      <br /><br />
+      תהלוכות העדלאידע של תל אביב לוו בנשפי פורים מפוארים שהפיק ברוך אגדתי.
+      התהלוכות שערכו החֶבְרֶ'ה טְרַאסְק (הקבוצה שייסד ב-1917 אברהם אלדמע)
+      התאפיינו במעשי קונדס ותחפושות פרובוקטיביות, ומסיבותיהם נחוגו לצד החגיגות
+      המפורסמות של אגדתי, שעליהן מתחו ביקורת נוקבת על מה שראו כהתמסחרותן בשל
+      הפיכתן למוסד רווחי ביותר. עם השנים התרחבו התהלוכות, ומסלולן נדד מרחוב הרצל
+      לרחוב אלנבי,ולאחר קום המדינה לרחוב אבן גבירול. בשנות השלושים נקבע נושא
+      מרכזי לכל עדלאידע, כגון "שבטי ישראל" (ב-1934, בהצעתו של חיים נחמן ביאליק),
+      "הישגי היישוב" או "המצב בעולם". בתקופה זו, אירועי פורים של תל אביב משכו
+      מבקרים מכל רחבי הארץ ואף מחוצה לה.
+    </p>
+
+    <div class="container">
+      <div class="row">
+        <div class="span4"></div>
+        <div class="span4">
+          <img
+            class="img2"
+            src="https://beyond.hackampus.com/canvas/general/general-cjQAi-2021.02.08.08.09.59-logo2021.png"
+            width="250"
+            height="250"
+          />
+        </div>
+        <div class="span4"></div>
+      </div>
+    </div>
+    <br /><br /><br />
+    <h2
+      style="
+        text-align: center;
+        background-color: #f2cc0f;
+        font-family: 'Playfair Display', serif;
+      "
+    >
+      המממנים
+    </h2>
+
+        </div>
+      </div>
+    </div>
+  </div>
+    <br><b><br>
+    </b>
+    <div class="row row-cols-3 g-3">
+  <div class="col">
+    <div class="card">
+      <div class="inner">
+        <img
+          class="card-img-top"
+          src="data:image/jpeg;base64,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"
+          alt="Card image cap"
+        />
+      </div>
+
+      <div class="card-body text-center">
+        <h5 class="card-title">מי עדן</h5>
+        <p class="card-text">
+          חברת מי עדן העוסקת בהפקה, שיווק והפצת מים מינרליים טבעיים,
+          מכונות קפה. חלוצת חברות המים המינרליים בישראל,
+           
+          מים עם מגנזיום - הסוד הקטן שישמור לכם על 
+          בריאות הגוף והנפש.
+        </p>
+        <a href="https://www.meyeden.co.il/" class="btn btn-primary">
+          לחץ כאן</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card shadow">
+      <div class="inner">
+        <img
+          class="card-img-top"
+          src="data:image/jpeg;base64,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"
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">בורגראנץ</h5>
+        <p class="card-text">
+          בורגראנץ' היא רשת מזון מהיר ישראלית, המציעה בעיקר ארוחות המבורגר
+          הכוללות מנת המבורגר בלחמנייה עם שתייה ותוספות שונות.
+        </p>
+        <br>
+        <a
+          href="https://app.burgeranch.co.il/menu/?utm_term=%D7%91%D7%95%D7%A8%D7%92%D7%A8%D7%90%D7%A0%D7%A5&utm_campaign=&utm_source=google&utm_medium=cpc#%D7%90%D7%A8%D7%95%D7%97%D7%95%D7%AA"
+          class="btn btn-primary"
+        >
+          לחץ כאן</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="inner">
+        <img
+          class="card-img-top"
+          src="https://eldadshaw.co.il/wp-content/uploads/2021/04/3-goldstar-logo-L.jpg"
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">בירת גולדסטאר</h5>
+        <p class="card-text">
+          גולדסטאר היא בירת לאגר ישראלית בסגנון לאגר דונקל מינכנאי המכילה
+          4.9% אלכוהול. היא הושקה לראשונה בשנת 1950 ומיוצרת במפעלי "טמפו"
+          בנתניה.
+        </p>
+        <a
+          href="https://www.beers.co.il/brewery/%D7%A7%D7%A8%D7%9C%D7%A1%D7%91%D7%A8%D7%92-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/"
+          class="btn btn-primary"
+        >
+          לחץ כאן</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="inner">
+        <img
+          class="card-img-top"
+          src="https://www.icoupons.co.il/wp-content/uploads/2020/11/12312.png"
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">עזריאלי</h5>
+        <p class="card-text">
+          כל מה שאתם צריכים במקום אחד: ריהוט לבית ולגן, מוצרי חשמל ואלקטרוניקה, ביוטי ופארם ועוד.
+          מבצעים שווים לכל המשפחה! 
+        </p>
+        <br>
+        <a href="https://www.azrieli.com/" class="btn btn-primary">
+          לחץ כאן</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="inner">
+        <img
+          class="card-img-top"
+          src="https://cdn.w600.comps.canstockphoto.co.il/%D7%91%D7%99%D7%9C-%D7%A4%D7%99%D7%A6%D7%94-%D7%95%D7%A7%D7%98%D7%95%D7%A8-%D7%A7%D7%9C%D7%99%D7%A4-%D7%90%D7%A8%D7%98_csp17471953.jpg"
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">פיצה תרשיש</h5>
+        <p class="card-text">
+          מסעדה איטלקית בעלת מנות מיוחדות ומגוונות. 
+        אצלנו תוכלו למצוא מגוון רחב של סלטים בהרכבה אישית.
+          <br><br>
+          <br>
+        <a
+          href="https://easy.co.il/page/10052918"
+          class="btn btn-primary"
+        >
+          לחץ כאן</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="inner">
+        <img
+          class="card-img-top"
+          src="data:image/png;base64,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"
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">ספאט חולון</h5>
+        <p class="card-text">
+          ספאט הוטל חדרים לפי שעה בחולון רשת ספאט הוטל עם שנים של מוניטין
+          בתחום האירוח, מזמינים אתכם למקום חדש ואיכותי בחולון. 
+        </p>
+        <a
+          href="https://www.irooms.co.il/%D7%A1%D7%A4%D7%90%D7%98+%D7%94%D7%95%D7%98%D7%9C+%D7%97%D7%95%D7%9C%D7%95%D7%9F.html"
+          class="btn btn-primary"
+        >
+          לחץ כאן</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <div class="inner">
+        <img
+          class="card-img-top"
+          src="https://upload.wikimedia.org/wikipedia/he/archive/2/22/20190907090742%21Osem_Logo.svg"
+          alt="Card image cap"
+        />
+      </div>
+      <div class="card-body text-center">
+        <h5 class="card-title">אוסם</h5>
+        <p class="card-text">
+          אֹסֶם השקעות בע"מ המוכרת בשמה המקוצר "אסם" היא קבוצת חברות מזון
+          ישראלית גדולה, הנשלטת על ידי תאגיד המזון השווייצרי נסטלה, המחזיק
+          ב-100% ממניותיה..
+        </p>
+        <a
+          href="https://www.osem-nestle.co.il/"
+          class="btn btn-primary"
+        >
+          לחץ כאן</a
+         >
+      </div>
+  </div>
+</div>
+</div>
+
+    <br /><br />
+
+    <section class="">
+      <footer class="text-center text-white" style="background-color: #9453a6">
+        <div class="container p-4 pb-0">
+          <section class="">
+            <p class="d-flex justify-content-center align-items-center">
+              עיריית חולון, ויצמן 58, 58737309, טל': 03-5027222, פקס:
+              03-6511851​
+            </p>
+          </section>
+        </div>
+        <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">Alice</a>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
